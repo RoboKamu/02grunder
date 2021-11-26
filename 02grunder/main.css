@@ -1,0 +1,120 @@
+body {
+    background-color: pink;
+    font-family: bold, 'Courier New', Courier, monospace;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    background-color: white;
+    position: relative;
+    right: -2px;
+    height: 70%;
+    padding: 16% 3% 16% 3%;
+    width: 45%; 
+}
+
+h1 {
+    position: relative;
+    text-align: left;
+    top: 10px;
+    left: 15px;
+}
+
+ul {
+    list-style-type: none;
+    height: 50px;
+}
+
+
+ul ul li a {
+    text-decoration: none;
+    margin: 1px;
+    top: 10px;
+}
+
+
+.jungkook {
+    position: relative;
+    margin-top:-39.5%;
+    left: 50%;
+    padding: 1% 2% 1% 2%;
+    display: inline;
+}
+
+.karzuni {
+    position: relative;
+    height: 100px;
+    width: 200px;
+    left: -670px;
+    top: -500px;
+}
+
+.text {
+    position: relative;
+        top: -580px;
+    right: 675px;
+}
+
+.text2 {
+    position: relative;
+    display: inline;
+    top: -560px;
+    right: 975px;
+}
+
+.items {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;   
+}
+
+.hisKarzuni {
+    position: relative;
+    left: 0%;
+    top: 100%;
+    padding: -150% 2% -150% 2%;
+}
+
+.bigContainer {
+    background-color: white;
+    position: relative;
+    right: -2%;
+    padding: 16% 3% 16% 3%;
+    width: 90%; 
+}
+
+.images {
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.smallContainer{
+    background-color: white;
+    position: relative;
+    right: -2%;
+    padding: 3% 2% 3% 2%;
+    width: 90%; 
+}
+
+
+.när {
+    margin-left: 10%;
+}
+
+.futureImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+table,th,td {
+    border: 1px black solid;
+}
+
+a:hover{
+background-color: pink;
+}
